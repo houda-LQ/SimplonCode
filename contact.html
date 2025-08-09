@@ -6,7 +6,7 @@
     <title>Contact</title>
      <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body >
    <header class="navbar">
         <nav class="navbar-nav">
             <div>
@@ -21,27 +21,40 @@
         </nav>
     </header>
     <main class="contact-page">
-        <section class="contact-info">
-            <h1>Contactez-nous</h1>
-            <!-- <p>Vous avez une question ? Un projet ? Contactez l’équipe SimplonCode via le formulaire ou nos coordonnées.</p> -->
-            <div class="cartes-container">
-                    <div  class="carte">
-                        <h3>Adresse  :</h3>
+       <section class="contact-section">
+    <div class="container">
+        <h2>Contactez-nous</h2>
+        <p class="description">
+       Vous avez une question ? Un projet ? Contactez l’équipe SimplonCode via le formulaire ou nos coordonnées
+        </p>
+
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="info-box">
+                    <div>
+                        <h3>Addresse</h3>
                         <p>Parc de Mohammedia, Maroc</p>
-                    </div>
-                    <div  class="carte">
-                        <h3>Téléphone :</h3>
-                        <p>+212 6 12 34 56 78</p>
-                    </div>
-                    <div class="carte">
-                        <h3>Email :</h3>
-                        <p>contact@simploncode.ma</p>
                     </div>
                 </div>
 
-                <div class="contact-form">
-            <h2>Formulaire de contact</h2>
-            <form action="#" method="post">
+                <div class="info-box">
+                    <div>
+                        <h3>Téléphone</h3>
+                        <p>+212 6 12 34 56 78</p>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <div>
+                        <h3>Email</h3>
+                        <p>contact@simploncode.ma</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h3>Formulaire de contact</h3>
+                 <form action="#" method="post">
                 <label for="name">Nom et prénom :</label>
                 <input type="text" id="name" name="name" required>
 
@@ -53,7 +66,11 @@
 
                 <button type="submit" class="btn">Envoyer</button>
             </form>
-</div>
+            </div>
+        </div>
+    </div>
+</section>
+
         <section class="map">
             <h2>Où nous trouver ?</h2>
             <iframe 
