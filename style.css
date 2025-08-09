@@ -4,53 +4,60 @@ body{
     color: white;
 }
 .navbar img{
- justify-content: left;
+ /* justify-content: left; */
  border-radius: 50px;
- width: 80px;
- height: 80px;
+ width: 120px;
+ height: 90px;
 }
 .navbar-nav {
   display: flex;
-  justify-content: center; 
+  justify-content:space-between; 
   align-items: center; 
-  padding: 10px 20px;
-  background-color: #2c3e50; 
+  padding: 0px 20px;
+  background-color:white; 
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   
+}
+.navbar-nav div{
+  display: flex;
+  align-items: center;
 }
 
 .nav-links {
   list-style: none; 
   display: flex;
-  gap: 20px; 
+color: #094575;
+  justify-content: center;
+  gap: 30px; 
   margin: 0;
   padding: 0;
 }
 
 .nav-links a {
+ 
   text-decoration: none;
-  color: white;
+  color: rgb(22, 44, 116);
   font-weight: 600;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    cursor: pointer;
 }
 
 .nav-links a:hover {
-  color: #627efa;
+  color: #3752cc;
+  text-decoration: underline;
 }
 
 
-.hero{
+/* .hero{
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('background.jpeg') no-repeat center center/cover;
-
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 10%;
-  }
- h1 {
+    align-items: center;
+    background-color: white;
+    justify-content:space-between;
+    padding: 50px 10%;
+  } */
+
+/* .hero-h1 {
     font-size: 2.5rem;
     margin-bottom: 1px;
   }
@@ -75,17 +82,99 @@ body{
 
   .btn:hover {
     background-color: #0a1f4b;
-  }
+  } */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px 30px ;
+  background-color: white;
+  /* height: 100vh; */
+  /* border: 1px solid red; */
+}
+.hero2{
+  /* border:1px solid red;  */
+   /* display: flex; */
 
- /* .prepresentation-generale{
-    background-color: #2475b8;
-  }*/
+  gap:20px
+
+}
+.hero-text {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+  /* margin-bottom: 20px; */
+  color: black;
+}
+
+.hero-text h1 span {
+  color: #4c8bdd; /* Couleur rouge pour "simplement" */
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #5E6A6E;
+  /* margin-bottom: 15px; */
+  font-family:sans-serif;
+   /* border: 1px solid red; */
+   padding: 10px;
+}
+
+.btn {
+  
+ 
+   background-color: #4c8bdd;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  margin: 10px;
+  
+}
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+
+ 
 
   .Histoire{
       display: flex;
-      background-color: #6ba6d6;
-      color:white;
+      flex-direction: column;
+      background-color: white;
+      color:#5E6A6E;
+      padding: 90px 20px;
+  text-align: center;
+  /* border: 1px solid red; */
   }
+  .Histoire h2 {
+     display: flex;
+    justify-content: center;
+  background-color: white;
+  color: #094575;
+  padding: 20px 20px;
+  text-align: center;
+  gap: 5px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+}
+
+.Histoire h2 span{
+  color: #4c8bdd;
+}
+
 .Histoire img{
    
     width: 400px;
@@ -96,55 +185,138 @@ body{
 }
 .Histoire p{
     display: flex;
-    justify-content: right;
+    /* flex-direction: column; */
+    justify-content: center;
     align-items: center;
-    margin-left: 80px;
+    padding: 10px;
+    margin: 2px;
+    /* border: 1px solid red; */
+    font-size: 18px;
 
 }
 
 .valeurs{
     display: flex;
-    background-color: #6ba6d6;
-    padding: 1px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(228, 234, 253);
+    color: #094575;
+    /* padding: 1px; */
+    font-size: 20px;
+    
 }
-.valeurs img{
+.valeurs p{
+  color:#5E6A6E;
+  font-size: 18px;
+}
+.valeurs h2 span{
+   color: #4c8bdd;
+   
+}
+.valeur{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(228, 234, 253);
+    color: #414344;
+    padding: 1px;
+   
+}
+.valeur img{
     width: 600px;
     height: 300px;
-    border-radius: 30px;
+    border-radius: 15px;
     display: flex;
     justify-content: right;
     margin: 60px;
 
 }
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+
+
+.pedagogies{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: #094575;
+    padding-top: 60px;
+    font-size: 20px;
+    
+}
+.pedagogies p{
+  color:#5E6A6E;
+  font-size: 18px;
+}
+.pedagogies h2 span{
+   color: #4c8bdd;
+   
+}
 
 .pedagogie{
     display: flex;
-    background-color: #6ba6d6;
-    padding: 2px;
-
+    background-color: white;
+    color: #5E6A6E;
+    /* padding: 0px; */
+   
+    
+    
+/* border: 1px solid red; */
 
 }
 
 .pedagogie img{
     display: flex;
 margin: 80px;
-    width: 600px;
+    width: 500px;
     height: 400px;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 .pedagogie ul{
-
     margin: 90px;
-    justify-content: right;
+    /* justify-content: right; */
+    /* text-align: left; */
 }
 
 
+.formation{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(228, 234, 253);
+    color: #094575;
+    /* padding: 90px; */
+    font-size: 20px;
+  
+    
+}
+.formation p{
+  color:#5E6A6E;
+  font-size: 18px;
+}
+
+.pourquoi-choisir h2 {
+  background-color: white;
+  color: #094575;
+  
+}
 
 .pourquoi-choisir {
-  background-color: #003366;
+  background-color: white;
   color: white;
   padding: 40px 20px;
   text-align: center;
+  
+}
+.pourquoi-choisir h2 span{
+   color: #4c8bdd;
+   
 }
 
 .cartes-container {
@@ -156,10 +328,10 @@ margin: 80px;
 }
 
 .carte {
-  background-color: #0055aa;
+  background-color: rgb(74, 94, 160);
   padding: 20px;
   border-radius: 10px;
-  width: 280px;
+  width: 350px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
