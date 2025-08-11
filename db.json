@@ -1,0 +1,96 @@
+{
+  "programmes": [
+    {
+      "id": "1",
+      "titre": "Développeur Web",
+      "description": "Apprenez à créer des sites et applications web modernes.",
+      "duree": "3 mois",
+      "competences": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Git"
+      ]
+    },
+    {
+      "id": "2",
+      "titre": "Développeur Full-Stack",
+      "description": "Maîtrisez le développement côté client et serveur.",
+      "duree": "6 mois",
+      "competences": [
+        "Node.js",
+        "React",
+        "MongoDB",
+        "API REST"
+      ]
+    },
+    {
+      "id": "3",
+      "titre": "Data Analyst",
+      "description": "Analysez et interprétez les données pour la prise de décision.",
+      "duree": "4 mois",
+      "competences": [
+        "Python",
+        "SQL",
+        "Pandas",
+        "Power BI"
+      ]
+    },
+    {
+      "id": "4",
+      "titre": "UX/UI Designer",
+      "description": "Créez des interfaces intuitives et esthétiques.",
+      "duree": "2 mois",
+      "competences": [
+        "Figma",
+        "Adobe XD",
+        "Design Thinking"
+      ]
+    },
+    {
+      "id": "5",
+      "titre": "Cyber Sécurité",
+      "description": "Protégez les systèmes informatiques contre les menaces.",
+      "duree": "5 mois",
+      "competences": [
+        "Réseaux",
+        "Linux",
+        "Pentesting",
+        "Sécurité Web"
+      ]
+    },
+    {
+      "id": "6",
+      "titre": "Intelligence Artificielle",
+      "description": "Implémentez des solutions basées sur l'IA et le machine learning.",
+      "duree": "6 mois",
+      "competences": [
+        "Python",
+        "TensorFlow",
+        "Scikit-learn"
+      ]
+    },
+    {
+      "id": "c7dd",
+      "titre": "saas",
+      "description": "aaaa",
+      "duree": "1mois",
+      "competences": [
+        "html",
+        "css",
+        "js"
+      ]
+    },
+    {
+      "id": "fbd2",
+      "titre": "saas",
+      "description": "jj",
+      "duree": "1mois",
+      "competences": [
+        "html",
+        "css",
+        "js"
+      ]
+    }
+  ]
+}

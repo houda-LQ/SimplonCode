@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ajouter un Programme</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="navbar">
+        <nav class="navbar-nav">
+            <div>
+                <img src="logo1.png" alt="logo" />
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="programmes.html">Programmes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="add-programme">
+            <h2>Ajouter un Programme</h2>
+            <form id="programme-form">
+                <input type="text" id="titre" placeholder="Titre" required />
+                <textarea id="description" placeholder="Description" required></textarea>
+                <input type="text" id="duree" placeholder="Durée (ex: 6 mois)" required />
+                <input type="text" id="competences" placeholder="Compétences (séparées par des virgules)" />
+                <button type="submit">Ajouter</button>
+            </form>
+            
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

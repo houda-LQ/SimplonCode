@@ -4,7 +4,6 @@ body{
     color: white;
 }
 .navbar img{
- /* justify-content: left; */
  border-radius: 50px;
  width: 120px;
  height: 90px;
@@ -55,12 +54,9 @@ color: #094575;
   justify-content: space-between;
   padding:10px 30px ;
   background-color: white;
-  /* height: 100vh; */
   /* border: 1px solid red; */
 }
 .hero2{
-  /* border:1px solid red;  */
-   /* display: flex; */
   gap:10px;
 
 }
@@ -71,18 +67,16 @@ color: #094575;
 
 .hero-text h1 {
   font-size: 50px;
-  /* margin-bottom: 20px; */
   color: black;
 }
 
 .hero-text h1 span {
-  color: #4c8bdd; /* Couleur rouge pour "simplement" */
+  color: #4c8bdd; 
 }
 
 .hero-text p {
   font-size: 18px;
   color: #5E6A6E;
-  /* margin-bottom: 15px; */
   font-family:sans-serif;
    /* border: 1px solid red; */
    padding: 10px;
@@ -150,7 +144,6 @@ color: #094575;
 }
 .Histoire p{
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -167,7 +160,6 @@ color: #094575;
     flex-direction: column;
     background-color: rgb(228, 234, 253);
     color: #094575;
-    /* padding: 1px; */
     font-size: 20px;
     
 }
@@ -227,7 +219,7 @@ hr {
     display: flex;
     background-color: white;
     color: #5E6A6E;
-    /* padding: 0px; */
+    /
    
     
     
@@ -244,8 +236,7 @@ margin: 80px;
 }
 .pedagogie ul{
     margin: 90px;
-    /* justify-content: right; */
-    /* text-align: left; */
+    
 }
 
 
@@ -256,7 +247,7 @@ margin: 80px;
     flex-direction: column;
     background-color: rgb(228, 234, 253);
     color: #094575;
-    /* padding: 90px; */
+  height: 200px;
     font-size: 20px;
   
     
@@ -265,6 +256,24 @@ margin: 80px;
   color:#5E6A6E;
   font-size: 18px;
 }
+.button2{
+background-color:rgb(228, 234, 253); 
+height: 90px;
+}
+.btn2 {
+  display: flex;
+  background-color: #4c8bdd;
+  color: white;
+  padding: 10px;
+  width: 180px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  justify-content: center;
+  margin: 0 auto; 
+}
+
 
 .pourquoi-choisir h2 {
   background-color: white;
@@ -321,14 +330,6 @@ footer {
 }
 
 @media(max-width:768px){
-  /* .navbar-nav{
-    flex-direction: column;
-    padding: 10px;
-  }
-  .nav-links{
-    flex-direction: column;
-    gap: 15px;
-  } */
   .hero{
     flex-direction: column;
     text-align: center;
@@ -372,15 +373,13 @@ footer {
     margin: 20px;
   }
 
+
 }
 
 
 
 
-
-
-
-
+/* page contact */
 .contact-section {
     padding: 50px 0;
     background-color: white;
@@ -501,8 +500,6 @@ h2 {
 
 }
 
-
-/* ----- Responsive Design ----- */
 @media (max-width: 768px) {
     .contact-content {
         flex-direction: column;
@@ -526,5 +523,151 @@ h2 {
     .contact-form button {
         font-size: 14px;
         padding: 10px;
+    }
+}
+
+
+/* PAGE PROGRAMMES */
+
+/* Section liste des programmes */
+.btn3 {
+  display: flex;
+  background-color: #4c8bdd;
+  color: white;
+  padding: 10px;
+  width: 190px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  justify-content: center;
+  margin: 0 auto; 
+}
+.programmes-list {
+    background-color: white;
+    color: #094575;
+    padding: 40px ;
+    max-width: 1100px;
+    margin: 60px;
+    border-radius: 10px;
+
+   
+}
+.tag {
+    display: inline-block;
+    background-color: #094575;
+    color: white;
+    padding: 5px 10px;
+    margin: 3px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+
+.programmes-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+#search {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+/* Grille des programmes */
+#programmes-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  
+}
+
+.programme-card {
+    background-color: rgb(228, 234, 253);
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
+}
+
+.programme-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.programme-card h3 {
+    color: #094575;
+    margin-bottom: 10px;
+    
+}
+
+.programme-card p {
+    color: #5E6A6E;
+    font-size: 15px;
+}
+
+/* Section ajout de programme */
+.add-programme {
+    background-color: rgb(228, 234, 253);
+    color: #094575;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.add-programme h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#programme-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#programme-form input,
+#programme-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#programme-form button {
+    background-color: #4c8bdd;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#programme-form button:hover {
+    background-color: #223461;
+}
+
+/* #form-message {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: green;
+} */
+
+/* Responsive */
+@media (max-width: 768px) {
+    #programmes-container {
+        grid-template-columns: 1fr;
     }
 }
